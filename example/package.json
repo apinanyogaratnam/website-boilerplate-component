@@ -7,7 +7,7 @@
   "version": "0.0.0",
   "private": true,
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "@apinanyogaratnam:registry":"https://npm.pkg.github.com"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
