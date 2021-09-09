@@ -10,6 +10,7 @@ export const MainPage = ({ name, description, linkedin, github, facebook, email 
             <br/><br/>
             <h2>About Me</h2>
             <p>{description}</p>
+            <br/><br/>
             <Links linkedin={linkedin} github={github} facebook={facebook} email={email} />
         </div>
     );
