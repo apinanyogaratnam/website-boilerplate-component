@@ -1,10 +1,15 @@
 {
-  "name": "website-boilerplate-component",
+  "name": "@apinanyogaratnam/website-boilerplate-component",
   "version": "1.0.5",
   "description": "a simple react component to start off with creating personal websites",
   "author": "apinanyogaratnam",
   "license": "MIT",
-  "repository": "apinanyogaratnam/website-boilerplate-component",
+  "repository": {
+    "url": "git://github.com/apinanyogaratnam/website-boilerplate-component.git"
+  },
+  "publishConfig": {
+    "@apinanyogaratnam:registry":"https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

@@ -1,14 +1,8 @@
 {
   "name": "@apinanyogaratnam/website-boilerplate-component-example",
   "homepage": ".",
-  "repository": {
-    "url": "git://github.com/apinanyogaratnam/website-boilerplate-component.git"
-  },
   "version": "1.0.6",
   "private": true,
-  "publishConfig": {
-    "@apinanyogaratnam:registry":"https://npm.pkg.github.com"
-  },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
