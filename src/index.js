@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-    return <div className={styles.test}>Example Component: {text}</div>
-}
 
-export const MainPage = () => {
-    return <div>Hello World</div>
+export const MainPage = ({ name, description }) => {
+    return (
+        <div className="center-text">
+            <div className="title">{name}</div>
+            <br/><br/>
+            <h2>About Me</h2>
+            <p>{description}</p>
+        </div>
+    );
 }
