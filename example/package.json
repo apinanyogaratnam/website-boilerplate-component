@@ -1,6 +1,9 @@
 {
-  "name": "website-boilerplate-component-example",
+  "name": "@apinanyogaratnam/website-boilerplate-component-example",
   "homepage": ".",
+  "repository": {
+    "url": "git://github.com/apinanyogaratnam/website-boilerplate-component.git"
+  },
   "version": "0.0.0",
   "private": true,
   "scripts": {
