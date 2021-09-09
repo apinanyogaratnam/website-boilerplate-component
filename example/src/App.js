@@ -6,8 +6,7 @@ import 'website-boilerplate-component/dist/index.css'
 const App = () => {
   return (
       <div>
-        <ExampleComponent text="Create React Library Example 😄" />
-        <MainPage />
+          <MainPage name="Apinan Yogaratnam" description="A motivated programmer" />
       </div>
   );
 }
