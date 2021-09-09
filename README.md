@@ -32,6 +32,8 @@ class Example extends Component {
 }
 ```
 
+![example image](example.png)
+
 ## License
 
 MIT © [apinanyogaratnam](https://github.com/apinanyogaratnam)
