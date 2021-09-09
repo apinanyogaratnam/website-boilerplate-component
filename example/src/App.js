@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ExampleComponent, MainPage } from 'website-boilerplate-component'
+import { MainPage } from 'website-boilerplate-component'
 import 'website-boilerplate-component/dist/index.css'
 
 const App = () => {
