@@ -15,12 +15,19 @@ npm install --save website-boilerplate-component
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'website-boilerplate-component'
+import MainPage from 'website-boilerplate-component'
 import 'website-boilerplate-component/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MainPage
+        name="Apinan Yogaratnam" 
+        description="A motivated programmer"
+        linkedin="https://www.linkedin.com/in/apinan-yogaratnam"
+        github="https://github.com/apinanyogaratnam"
+        email="example@icloud.com"
+        facebook="https://www.facebook.com/apinan.yogaratnam.7" 
+    />
   }
 }
 ```
