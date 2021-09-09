@@ -4,7 +4,7 @@
   "repository": {
     "url": "git://github.com/apinanyogaratnam/website-boilerplate-component.git"
   },
-  "version": "0.0.0",
+  "version": "1.0.6",
   "private": true,
   "publishConfig": {
     "@apinanyogaratnam:registry":"https://npm.pkg.github.com"
