@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from 'react';
+import styles from './styles.module.css';
+import { Links } from './components/links.js';
 
 
 export const MainPage = ({ name, description }) => {
@@ -9,6 +10,7 @@ export const MainPage = ({ name, description }) => {
             <br/><br/>
             <h2>About Me</h2>
             <p>{description}</p>
+            <Links />
         </div>
     );
 }
